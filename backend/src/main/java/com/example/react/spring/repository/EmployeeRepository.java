@@ -8,6 +8,6 @@ import java.util.List;
 
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee,Integer> {
-    List<Employee> findByRole(boolean published);
-    List<Employee> findByDepartment(String department);
+    /* List<Employee> findByRole(boolean published);
+    List<Employee> findByDepartment(String department);*/
 }
